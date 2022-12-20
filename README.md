@@ -1,5 +1,7 @@
 # Работа с pmtiles и Yandex Cloud
 
+ Посмотреть тестовые карты можно [здесь](https://storage.yandexcloud.net/stp/test/index.html)
+
 ## Создание .pmtiles
 Для создания можно воспользоваться [приложением](https://github.com/protomaps/go-pmtiles)
 
