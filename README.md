@@ -78,6 +78,17 @@ maplibregl.addProtocol("pmtiles", protocol.tile);
 }
 ```
 
+Для растра:
+
+```json
+"sources": {
+  "source-name": {
+    "url": "pmtiles://https://storage.yandexcloud.net/bucket-name/bd-name.pmtiles",
+    "type": "raster"
+  }
+}
+```
+
 # Выводы
 Визуально работа с pmtiles и с тайлами, которые раскиданы по папкам, не отличается. Иногда видно, что pmtiles работает побыстрее.
 
