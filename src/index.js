@@ -24,3 +24,8 @@ const rawMap = new maplibregl.Map({
     container: 'rawMap',
     style: 'gp_raw.json'
 });
+
+const rasterMap = new maplibregl.Map({
+    container: 'rasterMap',
+    style: 'style.json'
+});
