@@ -1,10 +1,10 @@
 {
   "id": "43f36e14-e3f5-43c1-84c0-50a9c80dc5c7",
   "name": "MapLibre",
-  "zoom": 0,
+  "zoom": 9,
   "center": [
-    0,
-    0
+    50,
+    54
   ],
   "layers": [
     {
@@ -15,7 +15,7 @@
   ],
   "sources": {
     "spot": {
-      "url": "pmtiles://https://storage.yandexcloud.net/stp/countries.pmtiles",
+      "url": "pmtiles://https://storage.yandexcloud.net/stp/SP5.pmtiles",
       "type": "raster"
     }
   },
